@@ -4,21 +4,21 @@ public class DijktraHashMapTest {
 
 	public static void main(String[] args) {
 
-		Node n1 = new Node("Arad  ");
-		Node n2 = new Node("Zerind");
-		Node n3 = new Node("Oradea");
-		Node n4 = new Node("Sibiu");
-		Node n5 = new Node("Fagaras");
-		Node n6 = new Node("Vilcea");
-		Node n7 = new Node("Pitesti");
-		Node n8 = new Node("Timisoara");
-		Node n9 = new Node("Lugoj");
-		Node n10 = new Node("Mehadia");
-		Node n11 = new Node("Drobeta");
-		Node n12 = new Node("Craiova");
-		Node n13 = new Node("Bucharest");
-		Node n14 = new Node("Giurgiu");
-
+		Node2 n1 = new Node2(	"Lima 	");
+		Node2 n2 = new Node2(	"Arequipa");
+		Node2 n3 = new Node2(	"Trujillo");
+		Node2 n4 = new Node2(	"Chiclayo");
+		Node2 n5 = new Node2(	"Piura");
+		Node2 n6 = new Node2(	"Junín ");
+		Node2 n7 = new Node2(	"Cuzco");
+		Node2 n8 = new Node2(	"Ancash");
+		Node2 n9 = new Node2(	"Loreto");
+		Node2 n10 = new Node2(	"Tacna ");
+		Node2 n11 = new Node2(	"Juliaca ");
+		Node2 n12 = new Node2(	"Ica   ");
+		Node2 n13 = new Node2(	"Cajamarca");
+		Node2 n14 = new Node2(	"Ucayali");
+		
 		// initialize the edges
 		n1.adjacencies = new Edge[] { new Edge(n2, 75), new Edge(n4, 140), new Edge(n8, 118) };
 
