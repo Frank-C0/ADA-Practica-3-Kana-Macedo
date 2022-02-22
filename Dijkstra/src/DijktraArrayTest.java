@@ -2,20 +2,20 @@ public class DijktraArrayTest {
 
 	public static void main(String[] args) {
 
-		Node2 n1 = new Node2("Arad  ");
-		Node2 n2 = new Node2("Zerind");
-		Node2 n3 = new Node2("Oradea");
-		Node2 n4 = new Node2("Sibiu");
-		Node2 n5 = new Node2("Fagaras");
-		Node2 n6 = new Node2("Vilcea");
-		Node2 n7 = new Node2("Pitesti");
-		Node2 n8 = new Node2("Timisoara");
-		Node2 n9 = new Node2("Lugoj");
-		Node2 n10 = new Node2("Mehadia");
-		Node2 n11 = new Node2("Drobeta");
-		Node2 n12 = new Node2("Craiova");
-		Node2 n13 = new Node2("Bucharest");
-		Node2 n14 = new Node2("Giurgiu");
+		Node2 n1 = new Node2(	"Lima 	");
+		Node2 n2 = new Node2(	"Arequipa");
+		Node2 n3 = new Node2(	"Trujillo");
+		Node2 n4 = new Node2(	"Chiclayo");
+		Node2 n5 = new Node2(	"Piura");
+		Node2 n6 = new Node2(	"Junín ");
+		Node2 n7 = new Node2(	"Cuzco");
+		Node2 n8 = new Node2(	"Ancash");
+		Node2 n9 = new Node2(	"Loreto");
+		Node2 n10 = new Node2(	"Tacna ");
+		Node2 n11 = new Node2(	"Juliaca ");
+		Node2 n12 = new Node2(	"Ica   ");
+		Node2 n13 = new Node2(	"Cajamarca");
+		Node2 n14 = new Node2(	"Ucayali");
 
 		// initialize the edges
 		n1.adjacencies = new Edge2[] { new Edge2(n2, 75), new Edge2(n4, 140), new Edge2(n8, 118) };
